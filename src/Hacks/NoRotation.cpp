@@ -4,6 +4,7 @@
 #include <Geode/modify/CCNode.hpp>
 #include <Geode/modify/PlayerObject.hpp>
 #include "../Client/Client.h"
+#include "Geode/Modify.hpp"
 
 using namespace geode::prelude;
 
