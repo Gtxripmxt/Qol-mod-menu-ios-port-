@@ -82,12 +82,6 @@ void NoclipPlayLayer::destroyPlayer(PlayerObject* p0, GameObject* p1)
 
             m_fields->tint->setColor(as<ColourModule*>(Client::GetModule("noclip")->options[2])->colour);
         }
-
-        if (p0 == m_player1)
-            base_cast<NoclipBaseGameLayer*>(this)->playSFX(true);
-
-        if (p0 == m_player2)
-            base_cast<NoclipBaseGameLayer*>(this)->playSFX(false);
     }
 }
 
