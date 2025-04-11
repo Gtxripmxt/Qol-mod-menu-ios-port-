@@ -119,7 +119,7 @@ public:
 	level->modules.push_back(new Module("Auto Collect Coins", "auto-coins", "Automatically collect coins in level"));
         level->modules.push_back(new Module("Suicide", "you-should-kill-yourself-now", "Kills the player instantly"));
         
-	level->modules.push_back(new Module("No Checkpoint Limit", "no-checkpoint-limit", "Removes the 50 checkpoint limit from practice  
+	level->modules.push_back(new Module("No Checkpoint Limit", "no-checkpoint-limit", "Removes the 50 checkpoint limit from practice mode")); 
 	level->modules.push_back(new Module("Auto Clicker", "auto-clicker", "Automatically clicks (and holds for) every X ticks"));
         
 	level->modules.push_back(new Module("Stop Triggers on Death", "stop-triggers-on-death", "Stops triggers whenever you die :3"));
