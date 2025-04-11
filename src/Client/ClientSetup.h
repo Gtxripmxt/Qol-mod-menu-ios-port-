@@ -102,41 +102,39 @@ public:
         level->modules.push_back(new Module("Show Triggers", "show-triggers", "Shows the triggers in normal mode like you're playtesting"));
 
         level->modules.push_back(new Module("Quests in Pause", "pause-quests", "Adds a button to open the quests menu in the pause menu", true));
-        level->modules.push_back(new Module("Show Trajectory", "show-trajectory", "Shows the players trajectory, This is broken for Ship and Ufo, in those gamemodes the trajectory may disappear unexpectedly"));
-
         level->modules.push_back(new Module("All Modes Platformer", "all-plat", "Allows all gamemodes in platformer mode"));
-        level->modules.push_back(new Module("Random Seed", "rand-seed", "Sets the seed for random triggers to a value of your choice"));
-
-        level->modules.push_back(new Module("Conditional Auto-Retry", "conditional-retry", "Shows the retry level popup ONLY when you get a new best"));
-        level->modules.push_back(new Module("Auto Practice Mode", "auto-practice", "Automatically puts you into practice mode when you open a level"));
-
-        level->modules.push_back(new Module("Kill at %", "kill-after", "Kills the player after a set percentage"));
-        level->modules.push_back(new Module("Jump Hack", "jump-hack", "Allows you to jump infinitely"));
-
-        level->modules.push_back(new Module("Pause Countdown", "pause-countdown", "Shows a countdown for 3 seconds when you unpause a level"));
-        level->modules.push_back(new Module("1 Attempt Practice", "practice-complete", "Allows you to complete a level in practice mode if you beat it in <cr>one</c> attempt", true));
-
-        level->modules.push_back(new Module("Best In Percentage", "best-in-percentage", "Shows the best percentage in the progress bar"));
-        level->modules.push_back(new Module("Auto Collect Coins", "auto-coins", "Automatically collect coins in level"));
-
-        level->modules.push_back(new Module("Suicide", "you-should-kill-yourself-now", "Kills the player instantly"));
-        level->modules.push_back(new Module("No Checkpoint Limit", "no-checkpoint-limit", "Removes the 50 checkpoint limit from practice mode"));
         
-        level->modules.push_back(new Module("Auto Clicker", "auto-clicker", "Automatically clicks (and holds for) every X ticks"));
-        level->modules.push_back(new Module("Stop Triggers on Death", "stop-triggers-on-death", "Stops triggers whenever you die :3"));
-
+	level->modules.push_back(new Module("Random Seed", "rand-seed", "Sets the seed for random triggers to a value of your choice"));
+        level->modules.push_back(new Module("Conditional Auto-Retry", "conditional-retry", "Shows the retry level popup ONLY when you get a new best"));
+        
+	level->modules.push_back(new Module("Auto Practice Mode", "auto-practice", "Automatically puts you into practice mode when you open a level"));
+        level->modules.push_back(new Module("Kill at %", "kill-after", "Kills the player after a set percentage"));
+        
+        level->modules.push_back(new Module("Jump Hack", "jump-hack", "Allows you to jump infinitely"));
+        level->modules.push_back(new Module("Pause Countdown", "pause-countdown", "Shows a countdown for 3 seconds when you unpause a level"));
+	
+	level->modules.push_back(new Module("1 Attempt Practice", "practice-complete", "Allows you to complete a level in practice mode if you beat it in <cr>one</c> attempt", true));
+	level->modules.push_back(new Module("Best In Percentage", "best-in-percentage", "Shows the best percentage in the progress bar"));
+        
+	level->modules.push_back(new Module("Auto Collect Coins", "auto-coins", "Automatically collect coins in level"));
+        level->modules.push_back(new Module("Suicide", "you-should-kill-yourself-now", "Kills the player instantly"));
+        
+	level->modules.push_back(new Module("No Checkpoint Limit", "no-checkpoint-limit", "Removes the 50 checkpoint limit from practice  
+	level->modules.push_back(new Module("Auto Clicker", "auto-clicker", "Automatically clicks (and holds for) every X ticks"));
+        
+	level->modules.push_back(new Module("Stop Triggers on Death", "stop-triggers-on-death", "Stops triggers whenever you die :3"));
         level->modules.push_back(new Module("Frame Stepper", "frame-stepper", "Step the game through frames by tapping a button"));
-        level->modules.push_back(new Module("Allow Pause Buffering", "pause-buffering", "Removes the fix for pause buffering (the old sakupen circles thing)"));
 
+	level->modules.push_back(new Module("Allow Pause Buffering", "pause-buffering", "Removes the fix for pause buffering (the old sakupen circles thing)"));
         level->modules.push_back(new Module("Force Hide Player", "hide-player", "Forces all players to be invisible"));
-        level->modules.push_back(new Module("Force Show Player", "show-player", "Forces all players to be visible"));
-
+        
+	level->modules.push_back(new Module("Force Show Player", "show-player", "Forces all players to be visible"));
         level->modules.push_back(new Module("Hitbox Multiplier", "hitbox-multiplier", "Change the size of hotboxes"));
-        level->modules.push_back(new Module("Freeze Attempts", "freeze-attempts", "Freezes your attempt count stat and on level"));
-
-        level->modules.push_back(new Module("No Static Camera", "no-static", "Disables static camera"));
-        level->modules.push_back(new Module("Legacy Upside Down Physics", "legacy-upside-down", "Forces the level to have the upside down <cl>gravity bug</c> from before <cc>2.2</c>"));
-
+        
+	level->modules.push_back(new Module("Freeze Attempts", "freeze-attempts", "Freezes your attempt count stat and on level"));
+	level->modules.push_back(new Module("No Static Camera", "no-static", "Disables static camera"));
+        
+	level->modules.push_back(new Module("Legacy Upside Down Physics", "legacy-upside-down", "Forces the level to have the upside down <cl>gravity bug</c> from before <cc>2.2</c>"));
         level->modules.push_back(new Module("Icon Kit in Pause", "pause-icon-kit", "Adds a button to open the icon kit in the pause menu", true));
 
         //level->modules.push_back(new Module("Gamemode Switcher", "gamemode-switcher", "Adds a button to the bottom of the pause menu to change your gamemode"));
