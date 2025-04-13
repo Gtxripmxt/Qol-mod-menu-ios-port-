@@ -1,0 +1,9 @@
+[cocos2d.CCMouseDispatcher.dispatchScrollMSG]
+cconv = "thiscall"  # calling convention (important)
+args = ["float", "float"]
+ret = "void"
+
+[cocos2d.CCKeyboardDispatcher.dispatchKeyboardMSG]
+cconv = "thiscall"
+args = ["cocos2d::enumKeyCodes", "bool", "bool"]
+ret = "void"
